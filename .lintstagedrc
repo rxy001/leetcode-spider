@@ -1,4 +1,4 @@
 {
   "*": "npm run prettier",
-  "*.{js}": "npm run lint:script"
+  "*.js": "npm run lint:script"
 }
