@@ -9,8 +9,7 @@
     "prepare": "husky install",
     "start": "cross-env DEBUG=true node ./lib/index.js",
     "lint:script": "eslint . --ext .js --max-warnings=0",
-    "prettier": "prettier -c --w",
-    "publish": "npm publish --access=public"
+    "prettier": "prettier -c --w"
   },
   "repository": {
     "type": "git",
