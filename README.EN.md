@@ -5,11 +5,14 @@ And generate a markdown file. Multiple calls will only add newly passed question
 
 ## Usage
 
-1. `npm i @x1ngyu/lc-spider -g`
-2. Ceate an config lc-config.json in the root directory or specifie config file path in the command line, The file type must be json.
+```bash
+npm i @x1ngyu/lc-spider -g
+```
+
+Ceate an config lc-config.json in the root directory or specifie config file path in the command line, The file type must be json.
 
 ```js
-// lc-config.json
+//
 {
   // leetcode account
   "username": "xxxxx",
@@ -28,4 +31,8 @@ And generate a markdown file. Multiple calls will only add newly passed question
   // default: true
   "translate": boolean
 }
+```
+
+```bash
+lc-spider
 ```
