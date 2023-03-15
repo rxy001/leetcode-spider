@@ -18,7 +18,7 @@ Ceate an config lc-config.json in the root directory or specifie config file pat
   "password": "xxxxx",
   "output": "path",
   "languages": ["javascript"],
-  "translate": boolean
+  "translate": false
 }
 ```
 
@@ -33,7 +33,9 @@ The number of recently submitted algorithm code requests for a single algorithm 
 For example:
 
 ```json
-config.languages = ["java", "javascript", "python3"]
+{
+  "languages": ["java", "javascript", "python3"]
+}
 ```
 
 If have submitted and passed Java and JavaScript solutions for the Two Sum problem, two recently submitted algorithm code requests will be sent.

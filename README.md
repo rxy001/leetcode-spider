@@ -18,7 +18,7 @@ npm i @x1ngyu/lc-spider -g
   "password": "xxxxx",
   "output": "path",
   "languages": ["javascript"],
-  "translate": boolean
+  "translate": false
 }
 ```
 
@@ -34,7 +34,9 @@ npm i @x1ngyu/lc-spider -g
 例如：
 
 ```json
-config.languages = ["java", "javascript", "python3"]
+{
+  "languages": ["java", "javascript", "python3"]
+}
 ```
 
 两树之和的算法题，提交并通过了 java 和 javascript 的算法，那么该题会发送 2 个最近提交的算法代码请求。
