@@ -1,6 +1,6 @@
 {
   "name": "@x1ngyu/lc-spider",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fetching the algorithm questions that have been accepted on own LeetCode account.",
   "bin": {
     "lc-spider": "bin/lc-spider.js"
