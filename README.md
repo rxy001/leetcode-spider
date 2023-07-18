@@ -6,6 +6,8 @@
 
 ```bash
 npm i @x1ngyu/lc-spider -g
+
+lc-spider <path>
 ```
 
 创建一个目录，在根目录下新建 lc-config.json ，或者在命令行中指定 config 文件，但必须是 `json` 格式。
